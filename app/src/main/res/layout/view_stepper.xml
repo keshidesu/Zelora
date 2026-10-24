@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quantity stepper:  [ -  1  + ]  (100 x 31 dp in the mockup) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="31dp"
+    android:background="@drawable/bg_qty"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/btnMinus"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Decrease quantity"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center"
+        android:text="−"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvQty"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/btnPlus"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Increase quantity"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp" />
+</LinearLayout>

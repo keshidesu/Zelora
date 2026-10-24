@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Palette sampled pixel-by-pixel from the final Zelora mockups.
+        Names describe the ROLE of the color, so a redesign only needs this one file.
+    -->
+
+    <!-- Backgrounds -->
+    <color name="bg">#F8F3EB</color>              <!-- app background (cream) -->
+    <color name="surface">#FDFBFA</color>         <!-- product cards, bottom navigation -->
+    <color name="surface_input">#FFFDF9</color>   <!-- sign-up fields, chips, circle buttons -->
+    <color name="sheet">#FFFCF7</color>           <!-- checkout bottom sheet -->
+    <color name="white">#FFFFFF</color>
+    <color name="tile">#F7F1E8</color>            <!-- address card, icon tiles, close button -->
+
+    <!-- Brand browns -->
+    <color name="brown">#67331B</color>           <!-- headings, banner, selected chip, badges, prices -->
+    <color name="btn_primary">#4B2215</color>     <!-- Log in / Create Account -->
+    <color name="brown_dark">#452014</color>      <!-- Add to Cart, Place Order, Log Out -->
+    <color name="pay_selected">#9A4E32</color>    <!-- selected payment option -->
+    <color name="pay_selected_bg">#F2E2D8</color>
+
+    <!-- Text -->
+    <color name="text_primary">#572A1B</color>    <!-- labels, icons, chip text -->
+    <color name="text_ink">#2C1A0E</color>        <!-- product title on the detail screen -->
+    <color name="text_dark">#2B211B</color>       <!-- checkout body text -->
+    <color name="text_card">#473033</color>       <!-- product name on cards -->
+    <color name="text_secondary">#8B7468</color>  <!-- sub-titles, section labels -->
+    <color name="text_muted">#786B61</color>      <!-- sign-up helper text -->
+    <color name="text_hint">#A39589</color>       <!-- placeholders, inactive icons -->
+    <color name="text_reviews">#8C7376</color>    <!-- "(98)" review count -->
+    <color name="text_desc">#6B5C4E</color>       <!-- product description -->
+    <color name="text_value">#7A4A1E</color>      <!-- "Blue" next to Color -->
+    <color name="text_strike">#B0A090</color>     <!-- old price -->
+    <color name="chevron">#B7A79E</color>
+    <color name="text_sheet_muted">#776B62</color>
+
+    <!-- Lines -->
+    <color name="stroke">#DED4CC</color>
+    <color name="stroke_warm">#DED2C5</color>
+    <color name="card_stroke">#E9DFD8</color>
+    <color name="divider">#EAE2DB</color>
+    <color name="divider_detail">#E2D5C8</color>
+    <color name="sheet_stroke">#E4D9CC</color>
+
+    <!-- Accents -->
+    <color name="amber">#E4A853</color>           <!-- rating star on cards -->
+    <color name="amber_detail">#E8A838</color>    <!-- rating star on detail -->
+    <color name="orange">#D78A2C</color>          <!-- cart badge / dot -->
+    <color name="heart">#7D4046</color>           <!-- heart icon on cards -->
+    <color name="sale_bg">#F0DFC8</color>
+    <color name="sale_text">#A0622A</color>
+    <color name="error">#C0392B</color>
+    <color name="success">#2E7D4F</color>
+    <color name="scrim">#59000000</color>         <!-- dim behind the side menu -->
+
+    <!-- Product color swatches -->
+    <color name="sw_red">#B8361C</color>
+    <color name="sw_blue">#7098A7</color>
+    <color name="sw_brown">#5C3A1E</color>
+    <color name="sw_yellow">#ECAD43</color>
+    <color name="sw_cream">#F2EDE5</color>
+    <color name="sw_cream_stroke">#EBD8C2</color>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="facebook_blue">#1877F2</color>
+</resources>

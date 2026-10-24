@@ -1,0 +1,40 @@
+<resources>
+    <!-- Rounded image corners (product photos) -->
+    <style name="ShapeAppearance.Zelora.Round12" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.Zelora.Round14" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">14dp</item>
+    </style>
+    <style name="ShapeAppearance.Zelora.Round16" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Standard text field used on dialogs and Account Settings -->
+    <style name="Field" parent="">
+        <item name="android:background">@drawable/bg_input_signup</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="FieldLabel" parent="Text.Label">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SocialCircle" parent="">
+        <item name="android:background">@drawable/bg_circle_social</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

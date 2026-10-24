@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="24dp">
+
+    <RadioGroup
+        android:id="@+id/rgReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbNotReceived"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Item not received" />
+
+        <RadioButton
+            android:id="@+id/rbDamaged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item arrived damaged" />
+
+        <RadioButton
+            android:id="@+id/rbWrongItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wrong item or color" />
+
+        <RadioButton
+            android:id="@+id/rbOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Something else" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etDetails"
+        style="@style/Field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:hint="Tell us what happened"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLines="5"
+        android:minLines="3" />
+</LinearLayout>
